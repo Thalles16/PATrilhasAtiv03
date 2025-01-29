@@ -12,13 +12,15 @@ using System;
 		
 		int diferenca = numero1 - numero2;
 		
-		if ( diferenca <= 10 )
+
+		
+		if ( diferenca <= 10 && diferenca >0 )
 		{
 			Console.WriteLine("os numeros tem diferença menor ou igual a 10");
 		}
 		else 
 		{
-			Console.WriteLine("os numeros tem diferença maior que 10");
+			Console.WriteLine("os numeros tem diferença maior ou igual a 10");
 		}
 		
 		
